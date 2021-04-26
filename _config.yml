@@ -8,11 +8,11 @@ version: 2
 # Personal info
 name: Quentin Garrido
 title: Master 2 Student in Computer Science
-email: quentin.garrido \[at\] edu.esiee.fr
+email: quentin.garrido [at] edu.esiee.fr
 website: www.github.com/garridoq
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 #twitter_username: facespics
@@ -53,7 +53,61 @@ about_content: | # this will include new lines to allow paragraphs
   My main interests include <mark>Computer Vision</mark>, <mark>Deep Learning</mark> and <mark>Mathematical Morphology</mark>.
 
 content:
-  - title: Projects # Title for the section
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Visualizing hierarchies in scRNA-seq data using a density tree-biased autoencoder 
+        link: https://arxiv.org/abs/2102.05892
+        # link_text: Project Website
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Result of my intership at Heidelberg University. <b>Preprint</b>.
+        description: | # this will include new lines to allow paragraphs
+            Garrido, Q., Damrich, S., Jäger, A., Cerletti, D., Claassen, M., Najman, L., & Hamprecht, F. (2021). *Visualizing hierarchies in scRNA-seq data using a density tree-biased autoencoder*. arXiv preprint arXiv:2102.05892.
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: ENS Paris-Saclay
+        caption: 2020 - 2021
+        sub_title: MVA
+        #quote: >
+        #  Establised in XXXX
+        description: | # this will include new lines to allow paragraphs
+          Considered one of the leading programs in Machine Learning in France, the MVA (Mathematics, computer vision, machine learning) master is an applied mathematics master's program that focuses on the theoretical foundations of machine learning as well as modern developments in the field.
+          
+          <b>Courses taken include :</b> Convex optimization, Large scale convex optimization, Topological Data Analysis, Image Denoising, Computer Vision, Point clouds and 3D modeling, Deep Learning in practice, Theoretical Foundations of Deep Learning, Graphs and machine learning.
+      - layout: left
+        title: ESIEE Paris
+        caption: 2016 - 2021
+        sub_title: MSc Computer Science
+        quote: >
+          Top of the class
+        description: | # this will include new lines to allow paragraphs
+           During the five years of my <i>Diplome d'ingénieur</i> at ESIEE Paris, I studied fundamental topics in mathematics, physics, electrical engineering with a focus on computer science.
+           
+           <b>Main topics studied :</b> High Performance Computing, image processing, algorithmics, mathematical morphology, programming language theory, ...
+           
+           I was also part of *Club\*NIX* (as a member and as president), a student association which aims at promoting open source software. Our actions included organizing events to teach to other students as well as teaching programming to primary school students.
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Heidelberg University
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research Internship
+        caption: May - August 2020
+        quote: >
+          Dimensionality reduction on scRNA-seq data
+        description: | # this will include new lines to allow paragraphs
+            Developed a new autoencoder based dimensionality reduction method which aims to preserve the hierarchical properties present in the data.
+            Combined deep learning methods and graph based techniques such as a density based Minimum Spanning Tree.
+            Applied and evaluated the method on single-cell transcriptomics data in order to visualize the cell development through time.         
+  - title: Notable projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -91,62 +145,6 @@ content:
           The goal of this project is to implement and analyze the foundational works on GANs, including DCGAN, WGAN, WGAN-GP and various other improvements.
           The main result is a comprehensive guide on this topic that is accessible with enough depth to be a good introduction on the topic.
           Please refer to the github link for more details as well as links to the relevant papers.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Heidelberg University
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Research Internship
-        caption: May - August 2020
-        quote: >
-          Dimensionality reduction on scRNA-seq data
-        description: | # this will include new lines to allow paragraphs
-            Developed a new autoencoder based dimensionality reduction method which aims to preserve the hierarchical properties present in the data.
-            Combined deep learning methods and graph based techniques such as a density based Minimum Spanning Tree.
-            Applied and evaluated the method on single-cell transcriptomics data in order to visualize the cell development through time.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: ENS Paris-Saclay
-        caption: 2020 - 2021
-        sub_title: MVA
-        #quote: >
-        #  Establised in XXXX
-        description: | # this will include new lines to allow paragraphs
-          Considered one of the leading programs in Machine Learning in France, the MVA (Mathematics, computer vision, machine learning) master is an applied mathematics master's program that focuses on the theoretical foundations of machine learning as well as modern developments in the field.
-          
-          Courses taken include : Convex optimization, Large scale convex optimization, Topological Data Analysis, Image Denoising, Computer Vision, Point clouds and 3D modeling, Deep Learning in practice, Theoretical Foundations of Deep Learning, Graphs and machine learning.
-      - layout: left
-        title: ESIEE Paris
-        caption: 2016 - 2021
-        sub_title: MSc Computer Science
-        quote: >
-          Top of the class
-        description: | # this will include new lines to allow paragraphs
-           During the five years of my *Diplome d'ingénieur* at ESIEE Paris, I studied fundamental topics in mathematics, physics, electrical engineering with a focus on computer science.
-           
-           Main topics studied : High Performance Computing, image processing, algorithmics, mathematical morphology, programming language theory, ...
-           
-           I was also part of *Club\*NIX* (as a member and as president), a student association which aims at promoting open source software. Our actions included organizing events to teach to other students as well as teaching programming to primary school students.
-  - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Visualizing hierarchies in scRNA-seq data using a density tree-biased autoencoder 
-        link: https://arxiv.org/abs/2102.05892
-        # link_text: Project Website
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Result of my intership at Heidelberg University. **Preprint**.
-        description: | # this will include new lines to allow paragraphs
-Garrido, Q., Damrich, S., Jäger, A., Cerletti, D., Claassen, M., Najman, L., & Hamprecht, F. (2021). Visualizing hierarchies in scRNA-seq data using a density tree-biased autoencoder. arXiv preprint arXiv:2102.05892.
       
 
 #  - title: A Little More About Me

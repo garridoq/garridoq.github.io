@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Currently pursuing a dual degree in Computer Science at ESIEE Paris and in Machine Learning at ENS Paris-Saclay (MVA program). My goal is to pursue a PhD after graduating from my master's program.
   
-  My main include (in no particular order) <mark>Computer Vision</mark>, <mark>Self Supervised Learning</mark>, <mark>Topological Data Analysis</mark>, <mark>Geometric Deep Learning</mark> (especially GNNs) and <mark>Mathematical Morphology</mark>.
+  My interests include (in no particular order) <mark>Computer Vision</mark>, <mark>Self Supervised Learning</mark>, <mark>Topological Data Analysis</mark>, <mark>Geometric Deep Learning</mark> (especially GNNs) and <mark>Mathematical Morphology</mark>.
 
 content:
   - title: Publications # Title for the section

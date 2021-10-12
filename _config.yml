@@ -7,8 +7,8 @@ version: 2
 
 # Personal info
 name: Quentin Garrido
-title: Master 2 Student in Computer Science
-email: quentin.garrido [at] edu.esiee.fr
+title: Incoming PhD student in Deep Learning
+email: quentin [dot] garrido [at] edu.esiee.fr
 website: www.github.com/garridoq
 
 # Dark Mode (true/false/never)
@@ -48,7 +48,7 @@ linkedin_username: quentingarrido
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Currently pursuing a dual degree in Computer Science at ESIEE Paris and in Machine Learning at ENS Paris-Saclay (MVA program). My goal is to pursue a PhD after graduating from my master's program.
+  After obtaining a dual degree in Computer Science at ESIEE Paris and in Machine Learning at ENS Paris-Saclay (MVA program), I will soon be starting my PhD, working on self-supervised learning.
   
   My interests include (in no particular order) <mark>Computer Vision</mark>, <mark>Self Supervised Learning</mark>, <mark>Topological Data Analysis</mark>, <mark>Geometric Deep Learning</mark> (especially GNNs) and <mark>Mathematical Morphology</mark>.
 
@@ -74,8 +74,8 @@ content:
         title: ENS Paris-Saclay
         caption: 2020 - 2021
         sub_title: MVA
-        #quote: >
-        #  Establised in XXXX
+        quote: >
+          Highest honors (Mention très bien, félicitations du jury)
         description: | # this will include new lines to allow paragraphs
           Considered one of the leading programs in Machine Learning in France, the MVA (Mathematics, computer vision, machine learning) master is an applied mathematics master's program that focuses on the theoretical foundations of machine learning as well as modern developments in the field.
           
@@ -96,6 +96,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Facebook AI Research (FAIR Paris)
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research Internship
+        caption: May - September 2021
+        quote: >
+          Self-Supervised Learning
+        description: | # this will include new lines to allow paragraphs
+                Developped a new self-supervised approach, building upon recent developments in the field. Work still under progress.
+      - layout: left
         title: Heidelberg University
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -107,6 +117,7 @@ content:
             Developed a new autoencoder based dimensionality reduction method which aims to preserve the hierarchical properties present in the data.
             Combined deep learning methods and graph based techniques such as a density based Minimum Spanning Tree.
             Applied and evaluated the method on single-cell transcriptomics data in order to visualize the cell development through time.         
+      
   - title: Notable projects # Title for the section
     layout: list # Type of content section (list/text)
     content:

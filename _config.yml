@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Quentin Garrido
-title: Incoming PhD student in Deep Learning
+title: PhD student in Computer Science
 email: quentin [dot] garrido [at] edu.esiee.fr
 website: www.github.com/garridoq
 
@@ -48,7 +48,9 @@ linkedin_username: quentingarrido
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  After obtaining a dual degree in Computer Science at ESIEE Paris and in Machine Learning at ENS Paris-Saclay (MVA program), I will soon be starting my PhD, working on self-supervised learning.
+  Currently a PhD Student at Meta AI and Université Gustave Eiffel under the supervision of Laurent Najman and Yann LeCun.
+  My principal research area is currently self-supervised learning, with a focus on images and videos.  
+  I previously completed a dual degree in Computer Science at ESIEE Paris and in Machine Learning at ENS Paris-Saclay (MVA program).
   
   My interests include (in no particular order) <mark>Computer Vision</mark>, <mark>Self Supervised Learning</mark>, <mark>Topological Data Analysis</mark>, <mark>Geometric Deep Learning</mark> (especially GNNs) and <mark>Mathematical Morphology</mark>.
 
@@ -64,7 +66,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Result of my intership at Heidelberg University. <b>Preprint</b>.
+         <b>Accepted at ISMB 2022</b>.
         description: | # this will include new lines to allow paragraphs
             Garrido, Q., Damrich, S., Jäger, A., Cerletti, D., Claassen, M., Najman, L., & Hamprecht, F. (2021). *Visualizing hierarchies in scRNA-seq data using a density tree-biased autoencoder*. arXiv preprint arXiv:2102.05892.
   - title: Education # Title for the section

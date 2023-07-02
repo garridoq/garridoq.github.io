@@ -1,6 +1,41 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ICLR":
+  url: https://iclr.cc
+  color: "#7ef542"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICLR - Oral":
+  url: https://iclr.cc
+  color: "#7ef542"
+
+"ICML":
+  url: https://icml.cc
+  color: "#4290f5"
+  
+"ICML - Oral":
+  url: https://icml.cc
+  color: "#4290f5"
+
+"NeurIPS":
+  url: https://neurips.cc
+  color: "#f58142"
+  
+"NeurIPS - Oral":
+  url: https://neurips.cc
+  color: "#f58142"
+  
+"TMLR":
+  url: https://jmlr.org/tmlr/
+  color: "#a442f5"
+  
+"ISMB":
+  url: https://www.iscb.org/
+  color: "#f043ae"
+ 
+"Preprint":
+  color: "#6e6e6e"
+  
+"Best Paper":
+  color: "#f54242"
+  
+"Honorable Mention":
+  color: "#f54242"
+

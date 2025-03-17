@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student at <a href="https://ai.facebook.com/">Meta - FAIR</a> and <a href="https://siteigm.univ-mlv.fr/">LIGM</a>. <br\> Jointly supervised by <a href="https://yann.lecun.com/">Yann LeCun</a> and <a href="https://www.laurentnajman.org/">Laurent Najman</a>.
+subtitle: Research Scientist, <a href="https://ai.meta.com/">FAIR at Meta</a>.<br\> PhD student at <a href="https://ai.meta.com/">FAIR at Meta</a> and <a href="https://siteigm.univ-mlv.fr/">LIGM</a>. <br\> Jointly supervised by <a href="https://yann.lecun.com/">Yann LeCun</a> and <a href="https://www.laurentnajman.org/">Laurent Najman</a>.
 
 profile:
   align: right

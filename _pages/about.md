@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm Quentin Garrido, a Research Scientist at Fair at META working broadly on **Self-Supervised Learning** and **World Models**.
+I'm Quentin Garrido, a Research Scientist at FAIR at Meta working broadly on **Self-Supervised Learning** and **World Models**.
 
 My resarch focuses primarily on self-supervised learning and it's application to computer vision and natural sciences.
 More recently, my research has pivoted towards video understanding and building world models from natural data (e.g. raw videos).

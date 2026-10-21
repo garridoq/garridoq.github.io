@@ -39,3 +39,14 @@
 "Honorable Mention":
   color: "#f54242"
 
+
+
+"CVPRW":
+  url: https://cvpr.thecvf.com
+  color: "#00369f"
+
+"Workshop":
+  color: "#2a9d8f"
+
+"PhD Thesis":
+  color: "#b5651d"
